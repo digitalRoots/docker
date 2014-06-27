@@ -42,5 +42,9 @@
 		}
 	}
 		?>
+<?php
+echo "gethostname = ".gethostname();
+echo '$_SERVER = '.$_SERVER['SERVER_NAME'];
+?>
 </body>
 </html>
